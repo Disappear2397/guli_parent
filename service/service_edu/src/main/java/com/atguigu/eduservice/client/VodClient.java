@@ -14,7 +14,7 @@ import java.util.List;
  * @version 1.0
  * @date 2021/5/24 20:54
  */
-@FeignClient(name = "service-vod",fallback = VodFileDegradeFeignClient.class) //调用的服务名称
+@FeignClient(name = "service-vod",fallback = VodFileDegradeFeignClient.class) //调用的服务名称 远程调用
 @Component
 public interface VodClient {
 

@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @date 2021/5/19 19:42
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@EnableDiscoveryClient
+@EnableDiscoveryClient//nacos注册
 @ComponentScan(basePackages = {"com.atguigu"})
 public class OssApplication {
 
