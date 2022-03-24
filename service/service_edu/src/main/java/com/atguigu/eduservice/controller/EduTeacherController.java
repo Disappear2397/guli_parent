@@ -28,7 +28,7 @@ import java.util.List;
  * @since 2021-05-16
  */
 @Api(tags = "讲师管理")
-@RestController
+@RestController//@ResponseBody和@Controller的合集
 @RequestMapping("/eduservice/teacher")
 @CrossOrigin
 public class EduTeacherController {
